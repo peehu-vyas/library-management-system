@@ -324,6 +324,13 @@ http://localhost:3000
 
 # Docker (Optional)
 
+## Docker Environment
+
+When running with Docker Compose, use:
+
+```env
+DATABASE_URL=postgresql://postgres:postgres@db:5432/library 
+
 ## docker-compose.yml
 
 ```yaml
